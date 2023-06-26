@@ -1,0 +1,21 @@
+.prog {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: conic-gradient(#F6C345 var(--progress), black 0deg);
+    font-size: 0;
+  }
+  
+  .prog::after {
+    content: attr(data-progress) '%';
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+    border-radius: 50%;
+    background: #25252F;
+    font-size: 1rem;
+    text-align: center;
+  }
