@@ -19,3 +19,63 @@
     font-size: 1rem;
     text-align: center;
   }
+.telegram { 
+  color: white;
+}
+.telegram:hover{
+  text-decoration: none;
+  color:  #2AABEE;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.instagram { 
+  color: white;
+}
+.instagram:hover{
+  text-decoration: none;
+  color:  #C13584;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.git { 
+  color: white;
+}
+.git:hover{
+  text-decoration: none;
+  color:  gray;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+.linkdin { 
+  color: white;
+}
+.linkdin:hover{
+  text-decoration: none;
+  color:  #313335;
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+main {
+
+  margin-top: 22px;
+}
+
+.slide {
+  max-width: 100%;
+  width: 1300px;
+  height: 400px;
+  z-index: 1;
+}
+.slideimg {
+  opacity: 40%;
+}
+.mohtava {
+  position:absolute;
+  bottom:68%
+}
+.me {
+position: absolute;
+bottom:100%;
+left: 66%;
+
+}
