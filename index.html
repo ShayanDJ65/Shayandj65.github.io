@@ -156,7 +156,36 @@
                   </span>></span>
                 </p>
                 <div class="text-white font-weight-bold">
-                  <button class="mt-1 mb-3 btn btn-success btn-fluid w-50">Download CV</button>
+                  <!-- <button class="mt-1 mb-3 btn btn-success btn-fluid w-50">Download CV</button> -->
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn btn-lg btn-success btn-fluid" data-toggle="modal" data-target="#modelId">
+                    Download CV
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title text-dark">Select the language</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="row">
+                            <div class="col-xl-12 text-center">
+                              <a href="/Resumes/English.pdf"><button class="btn btn-lg btn-fluid btn-danger mx-3">English</button></a>
+                              <a href="/Resumes/Persian.pdf"><button class="btn btn-lg btn-fluid btn-warning">فارسی</button></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">بستن</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
 
