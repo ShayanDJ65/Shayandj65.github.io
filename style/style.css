@@ -4,6 +4,15 @@ html {
 
 }
 
+@media screen and (max-width: 767px) {
+  html {
+    overflow-y: auto;
+  }
+
+  .me{
+    visibility: hidden;
+  }
+}
 .prog {
     display: flex;
     width: 100px;
@@ -12,7 +21,7 @@ html {
     background: conic-gradient(#F6C345 var(--progress), black 0deg);
     font-size: 0;
   }
-  
+
   .prog::after {
     content: attr(data-progress) '%';
     display: flex;
