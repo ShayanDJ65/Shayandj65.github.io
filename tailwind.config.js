@@ -3,8 +3,8 @@ module.exports = {
   content: [
   ],
   'scripts': {
-    "build":'npx tailwindcss-cli -i src/styles.css -o public/styless.css'},
-    
+    "build":"npx tailwindcss-cli -i src/styles.css -o public/styless.css"},
+
   theme: {
     extend: {
       colors: {
